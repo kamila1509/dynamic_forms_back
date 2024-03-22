@@ -1,0 +1,24 @@
+{
+  "name": "dashboard-forms-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Camila Urquizo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "firebase-admin": "^12.0.0",
+    "morgan": "^1.10.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "firebase": "^10.8.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
